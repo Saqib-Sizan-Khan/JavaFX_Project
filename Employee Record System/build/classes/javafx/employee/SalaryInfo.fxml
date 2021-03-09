@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.employee.SalaryInfoController">
+    <children>
+        <Label layoutX="46.0" layoutY="23.0" text="Salary Info" textFill="#db460d">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <TextField fx:id="idbar" layoutX="180.0" layoutY="86.0" prefHeight="39.0" prefWidth="210.0">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+        </TextField>
+      <TextArea fx:id="disbar" layoutX="180.0" layoutY="227.0" prefHeight="162.0" prefWidth="360.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="180.0" layoutY="200.0" text="Salary Information :">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="92.0" text="Employee ID :">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+        <Button layoutX="278.0" layoutY="140.0" mnemonicParsing="false" onAction="#cleartAction" text="Clear" textFill="#bf0808">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <effect>
+            <InnerShadow color="#d00404" height="41.76" radius="21.119999999999997" width="44.72" />
+         </effect>
+        </Button>
+        <Button layoutX="180.0" layoutY="140.0" mnemonicParsing="false" onAction="#submitAction" text="Submit" textFill="#0b0aa3">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <effect>
+            <InnerShadow color="#0814bc" height="41.52" radius="20.2575" width="41.51" />
+         </effect>
+        </Button>
+        <Button layoutX="14.0" layoutY="347.0" mnemonicParsing="false" onAction="#backAction" text="&lt;Back" textFill="#09b3c9">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+         <effect>
+            <InnerShadow color="#0a7b9e" height="47.44" radius="23.22" width="47.44" />
+         </effect>
+        </Button>
+      <Label fx:id="unl" layoutX="404.0" layoutY="88.0" prefHeight="35.0" prefWidth="184.0" textFill="#e42323">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

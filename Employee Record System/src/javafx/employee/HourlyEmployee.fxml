@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.employee.HourlyEmployeeController">
+   <children>
+      <TextField fx:id="namebar" layoutX="255.0" layoutY="146.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="idbar" layoutX="255.0" layoutY="211.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="desbar" layoutX="255.0" layoutY="274.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="hrbar" layoutX="255.0" layoutY="342.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="hwbar" layoutX="255.0" layoutY="408.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="20.0" layoutY="522.0" mnemonicParsing="false" onAction="#backAction" text="&lt;Back" textFill="#0c9ed3">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#0989bc" height="47.69" radius="23.345" width="47.69" />
+         </effect>
+      </Button>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#HomeAction" text="Home" textFill="#0cd319">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#0be025" height="50.65" radius="24.825" width="50.65" />
+         </effect>
+      </Button>
+      <Button layoutX="255.0" layoutY="464.0" mnemonicParsing="false" onAction="#submitAction" text="Submit" textFill="#270bb1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#270bb1" height="44.72" radius="21.86" width="44.72" />
+         </effect>
+      </Button>
+      <Button layoutX="357.0" layoutY="464.0" mnemonicParsing="false" onAction="#cleartAction" text="Clear" textFill="#da0707">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#da0707" height="44.72" radius="21.86" width="44.72" />
+         </effect>
+      </Button>
+      <Label layoutX="165.0" layoutY="146.0" text="Name :">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="211.0" text="ID :">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="276.0" text="Designation :">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="97.0" layoutY="344.0" text="Hourly Rate :">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="410.0" text="Hourly Worked :">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="188.0" layoutY="14.0" mnemonicParsing="false" onAction="#showAction" text="Show Now" textFill="#dd560d">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#dd560d" height="47.69" radius="23.345" width="47.69" />
+         </effect>
+      </Button>
+      <Button layoutX="88.0" layoutY="14.0" mnemonicParsing="false" onAction="#showlistAction" text="Show List" textFill="#ae0b9e">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#b009b9" height="47.69" radius="23.345" width="47.69" />
+         </effect>
+      </Button>
+      <Label layoutX="279.0" layoutY="80.0" text="Hourly Employee" textFill="#d1130a">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="namel" layoutX="505.0" layoutY="148.0" prefHeight="27.0" prefWidth="225.0" textFill="#e81811">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="idl" layoutX="501.0" layoutY="215.0" prefHeight="27.0" prefWidth="225.0" textFill="#e81811">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="desl" layoutX="505.0" layoutY="280.0" prefHeight="27.0" prefWidth="225.0" textFill="#e81811">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="hrl" layoutX="505.0" layoutY="348.0" prefHeight="27.0" prefWidth="225.0" textFill="#e81811">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="sl" layoutX="246.0" layoutY="522.0" prefHeight="27.0" prefWidth="280.0" textFill="#0fd95c">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="hwl" layoutX="505.0" layoutY="414.0" prefHeight="27.0" prefWidth="225.0" textFill="#e81811">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
